@@ -1,0 +1,8 @@
+%h1
+  Welcome to posts page
+
+- @posts.each do |post|
+  %h3
+    = post.title
+  %p
+    = post.content
