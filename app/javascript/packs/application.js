@@ -11,3 +11,9 @@ import "channels"
 Rails.start()
 Turbolinks.start()
 ActiveStorage.start()
+
+var $ = require("jquery");
+window.jQuery = $;
+window.bootstrap = require('bootstrap');
+
+import "../script_home/home";
