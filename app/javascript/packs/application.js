@@ -15,5 +15,5 @@ ActiveStorage.start()
 var $ = require("jquery");
 window.jQuery = $;
 window.bootstrap = require('bootstrap');
-
+import '../stylesheets/application'
 import "../script_home/home";
